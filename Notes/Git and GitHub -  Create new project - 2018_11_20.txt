@@ -1,0 +1,12 @@
+## Create a repo on Github whitout selecting "Initialize this repository with a README" option.
+
+## Create the project with choosed IDE.
+
+## Execute following commands in folder that contain the project for creating README file,
+## initializing project and pushing it to the repo on github.
+echo "# {name of the project}" >> README.md
+git init
+git add README.md
+git commit -m "Creating README file of {name of the project} project"
+git remote add origin https://github.com/adona65/{name of the project}
+git push -u origin master
